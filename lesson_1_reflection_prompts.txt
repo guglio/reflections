@@ -20,17 +20,17 @@ The automatic version, is the opposite.
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-- I think that they use different logic and different optimization engine
+- Because git consider the connection between the files, instead, other version control system like Google Docs, doesn't consider the files connections.
 
 How can you use the commands git log and git diff to view the history of files?
 
-- 
+- First you use "git log" to see the commits, and than, you can use "git diff commit1 commit2" to see the differences between those two commits
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+- Because you have the possibility to break the current commit, and return to the previous one, that wasn't broke
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+- I'll probably use for my websites.
